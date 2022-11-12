@@ -1,0 +1,15 @@
+{
+  "name": "modmail",
+  "version": "0.0.0",
+  "description": "An easy-to-use self-hostable discord modmail bot",
+  "main": "dist/index.js",
+  "repository": "https://github.com/matievisthekat/modmail",
+  "author": "Matthew Stead <matievisthekat@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "discord.js": "^14.6.0",
+    "erlpack": "discord/erlpack",
+    "zlib-sync": "^0.1.7"
+  }
+}
