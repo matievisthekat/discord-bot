@@ -3,7 +3,7 @@ import findFiles from "../util/findFiles";
 
 export interface Event {
   name: Events,
-  once: boolean,
+  once?: boolean,
   execute(...args: any): Promise<void> | void
 }
 
