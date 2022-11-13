@@ -3,6 +3,10 @@
   "version": "0.0.0",
   "description": "An easy-to-use self-hostable discord modmail bot",
   "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node .",
+    "build": "tsc"
+  },
   "repository": "https://github.com/matievisthekat/modmail",
   "author": "Matthew Stead <matievisthekat@gmail.com>",
   "license": "MIT",
