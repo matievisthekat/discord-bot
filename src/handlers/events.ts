@@ -1,8 +1,8 @@
-import { Events } from "discord.js";
+import { ClientEvents, Events } from "discord.js";
 import findFiles from "../util/findFiles";
 
 export interface Event {
-  name: Events,
+  name: keyof ClientEvents,
   once?: boolean,
   execute(...args: any): Promise<void> | void
 }
